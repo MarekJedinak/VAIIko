@@ -41,7 +41,9 @@ body, html {
 
 nav {
     width: 100%;
-    margin: 10px;
+    height: 100%;
+    /*margin: 10px;*/
+    background-color: #7794a1;
 }
 
 nav ul {
@@ -53,7 +55,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 15px;
+    margin: 7px;
 }
 
 nav button {
@@ -85,7 +87,7 @@ nav button {
     max-width: 460px;
     position: relative;
     cursor: pointer;
-    transform: rotate(-2deg);
+    /*transform: rotate(-2deg);*/
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -93,13 +95,14 @@ nav button {
 .characters-btn:after{
     content: '';
     position: absolute;
-    border: 1px solid black;
+    border: 2px solid black;
     bottom: 4px;
     left: 4px;
     width: calc(100% - 1px);
     height: calc(100% - 1px);
 }
 .characters-btn:hover:after{
-    bottom: 1px;
-    left: 1px;
+    bottom: 0;
+    left: 0;
 }
+
