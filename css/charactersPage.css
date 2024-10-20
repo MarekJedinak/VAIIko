@@ -5,6 +5,10 @@
     align-items: center;
     text-align: center;
 }
+.telo h3 {
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+}
 .list-of-characters {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +19,7 @@
     gap: 20px;
 }
 .item {
+    padding-top: 20px;
     text-align: center;
 }
 .item img{
@@ -25,4 +30,10 @@
 .item p {
     margin: 5px 0;
     font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .telo h3 {
+        font-size: 3rem;
+    }
 }
