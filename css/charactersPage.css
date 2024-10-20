@@ -1,0 +1,28 @@
+.telo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.list-of-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    max-width: 1440px;
+    gap: 20px;
+}
+.item {
+    text-align: center;
+}
+.item img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.item p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
