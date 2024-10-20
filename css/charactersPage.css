@@ -21,6 +21,8 @@
 .item {
     padding-top: 20px;
     text-align: center;
+    text-wrap: normal;
+    max-width: 250px;
 }
 .item img{
     width: 250px;
