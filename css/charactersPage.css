@@ -17,12 +17,18 @@
     height: 400px;
     max-width: 1440px;
     gap: 20px;
+    padding-top: 20px;
+
 }
 .item {
-    padding-top: 20px;
     text-align: center;
     text-wrap: normal;
     max-width: 250px;
+    background-color: #7c98a3;
+    border: 1px solid black;
+}
+.item span {
+    font-weight: bold;
 }
 .item img{
     width: 250px;

@@ -35,6 +35,7 @@ body, html {
     color: #c9101c;
     font-size: 3rem;
     font-family: ui-sans-serif;
+    font-weight: bold;
     z-index: 1;
     margin: 0;
     padding: 0;
