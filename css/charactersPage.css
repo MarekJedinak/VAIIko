@@ -22,7 +22,6 @@
 }
 .item {
     text-align: center;
-    text-wrap: normal;
     max-width: 250px;
     background-color: #7c98a3;
     border: 1px solid black;
